@@ -27,8 +27,8 @@ $ sudo su
 ```
 Open up port 53001 on your machine and make sure it has been added to the list.
 ```sh 
-# ufw allow 53001 comment 'allow Sphinx-Chat'
-# ufw status
+$ ufw allow 53001 comment 'allow Sphinx-Chat'
+$ ufw status
 
 > Status: active
 >
